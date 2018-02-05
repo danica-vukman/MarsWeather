@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="metric"
+        android:entries="@array/unit_labels"
+        android:entryValues="@array/unit_values"
+        android:key="units"
+        android:summary="Choose preferred units"
+        android:title="Preferred units" />
+
+</PreferenceScreen>

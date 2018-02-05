@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.60"
+        android:background="#FF5722">
+
+        <ImageView
+            android:id="@+id/main_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.40"
+        android:background="#212121"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="6dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="Today's average temperature is"
+                android:textColor="#FF5722"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/degrees"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:text="-36°"
+                android:textColor="#FF5722"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="and the weather is"
+                android:textColor="#FF5722"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/degrees"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:text="Sunny"
+                android:textColor="#FF5722"
+                android:textSize="30sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginRight="6dp">
+
+            <TextView
+                android:id="@+id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingTop="6dp"
+                android:text="New Text"
+                android:textColor="#FF5722"
+                android:textSize="15sp"
+                android:layout_marginTop="3dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

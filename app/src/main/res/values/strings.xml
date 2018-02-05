@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MarsWeather</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_summary">This simple app shows the current weather on Mars, measured by the Mars Rover and provided by MAAS API and a random Mars related picture, using Flickr API. Pressing and holding the image will take you to the full sized picture on the Flickr website. In the archive, you can see the weather data for a specific date, if made available.</string>
+    <string name="title_welcome">Welcome!</string>
+    <string name="title_activity_archive">Archive</string>
+    <string name="no_data_string">Unfortunately, there is no data for this date :(</string>
+
+</resources>
